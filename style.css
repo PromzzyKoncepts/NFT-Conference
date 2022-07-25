@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.right-nav {
+  float: right;
+  margin-top: -10px;
+  margin-right: 20px;
+}
+
+.top-nav {
+  background-color: #343434;
+  padding: 24px;
+}
+
+.right-nav a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+/* lower nav and heading */
+.nft-logo {
+  width: 100px;
+}
+
+.logo-text {
+  margin-top: 23px;
+}
+
+.logo-icon {
+  display: flex;
+}
+
+.lists a {
+  text-decoration: none;
+  color: #282828;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.lists > li > a:hover {
+  color: brown;
+}
+
+.lists {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 0 10px #000;
+}
+
+.front-section {
+  background-image: url(./images/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-section {
+  padding: 7rem;
+}
+
+.med-heading {
+  color: #f55114;
+  line-height: 2rem;
+}
+
+.main-heading {
+  font-weight: 900;
+  font-size: 4rem;
+  background-image: url(./images/backgrd.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  line-height: 4rem;
+}
+
+.paragraph1 {
+  width: 50%;
+}
+
+.date {
+  font-weight: 700;
+  color: #282828;
+}
+
+.venue {
+  font-size: 1rem;
+}
+
+.program {
+  background-image: url(./images/back2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.program h2 {
+  text-align: center;
+  padding: 50px;
+  color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.cards {
+  background-color: #b3b3b3;
+  padding: 15px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.cards:hover {
+  border-radius: 10px;
+  background-color: brown;
+  color: #f4f4f4;
+  border: 1px solid;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.img {
+  /* max-width: 10rem; */
+  max-height: 10rem;
+  margin-right: 20px;
+}
+
+.speakers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem 10rem;
+  gap: 50px;
+}
+
+.flex-item {
+  display: flex;
+}
+
+.flex-item p {
+  text-align: justify;
+}
+
+.header-text2 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+small {
+  color: red;
+}
+
+#Sponsor {
+  background-color: #424146;
+  color: #f4f4f4;
+  text-align: center;
+  height: auto;
+}
+
+#Sponsor > h3 {
+  padding-top: 30px;
+}
+
+.partner-logo {
+  width: 12rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+
+  /* gap: 50px; */
+  background-color: #f8f8f8;
+}
+
+.footer-text {
+  margin-top: 13px;
+
+  /* width: 40%; */
+}
