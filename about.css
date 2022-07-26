@@ -212,7 +212,7 @@ body {
     height: 800px;
     width: 100%;
     font-family: 'Inter', sans-serif;
-    position: absolute;
+    position: fixed;
     margin: 0;
     padding: 0;
     left: -200%;
@@ -220,7 +220,7 @@ body {
 
   .nav-menu.active {
     left: 0;
-    transition: 0.5s;
+    transition: 0.5s ease-out;
   }
 
   .nav-links {
@@ -246,7 +246,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    margin: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
   }
 
   .hr-nav {
