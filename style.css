@@ -134,6 +134,7 @@ body {
   opacity: 0.9;
   color: #f4f4f4;
 }
+
 .cards h3 {
   color: #ec5242;
 }
@@ -263,7 +264,7 @@ body {
   .program {
     padding-bottom: 50px;
   }
-  
+
   .flex-item p {
     overflow: hidden;
     text-overflow: ellipsis;

@@ -53,9 +53,9 @@ function Speaker() {
   const heading = document.createElement('h2');
   heading.innerText = 'Featured Speakers';
   heading.className = 'header-text2';
-  const lineDiv = document.createElement('div')
+  const lineDiv = document.createElement('div');
   lineDiv.className = 'line';
-  
+
   const sectionTag = document.getElementById('speaker-section');
   sectionTag.appendChild(heading);
   sectionTag.appendChild(lineDiv);
