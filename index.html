@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <script src="web.js"></script>
+    
   </head>
   <body>
     <div class="wrapper">
@@ -26,27 +26,57 @@
             <a href="#">Logout</a>
           </div>
         </nav>
-
         <!-- the lower header -->
         <div class="logo">
           <div class="logo-icon">
-            <div><a href="#index.html" class="nft-logo"><img src="./images/nft-logo.png" class="nft-logo" alt="nft logo"></a></div>
+            <div><a href="index.html" class="nft-logo"><img src="./images/nft-logo.png" class="nft-logo" alt="nft logo"></a></div>
             <h5 class="logo-text">NFT GLOBAL <br> SUMMIT 2022</h5>
           </div>
           <ul class="lists">
             <li><a href="About.html">About</a>
-                <a href="#Program">Program</a>
-                <a href="#Speaker">Speakers</a>
-                <a href="#Sponsor">Sponsor</a>
-                <a href="#">News</a>
-                <a href="#">NFT Campaign</a>
+              <a href="#Program">Program</a>
+              <a href="#speaker-section">Speakers</a>
+              <a href="#Sponsor">Sponsors</a>
+              <a href="#">News</a>
+              <a href="#">NFT Initiative</a>
             </li>
           </ul>
         </div>
       </header>
-
+      
       <!-- the Front Page Section -->
       <section class="front-section">
+        
+        <!-- the hamburger logo -->
+        <div class="nav-menu">
+          <div class="slide-in">
+            <img src="./images/Icon.png" alt="exit button">
+          </div>
+          <ul class="nav-links">
+            <li>
+              <span class="link"><a href="about.html">About</a></span>
+
+              <hr class="hr-nav">
+              <span class="link"><a href="#Program">Program</a></span>
+
+              <hr class="hr-nav">
+              <span class="link"><a href="#speaker-section">Speakers</a></span>
+
+              <hr class="hr-nav">
+              <span class="link"><a href="#Sponsor">Sponsors</a></span>
+              <hr class="hr-nav">
+              <span class="link"><a href="#News">News</a></span>
+              <hr class="hr-nav">
+              <span class="link"><a href="#NFTintiative">NFT Initiative</a></span>
+              
+            </li>
+          </ul>
+        </div>
+
+        <div class="mobile-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+                  
         <div class="first-section">
           <h2 class="med-heading">
             "Welcome to the Age of NFT's"
@@ -61,7 +91,10 @@
 
       <!-- the Main Program Section -->
       <section id="Program" class="program">
-        <h2>Main Program</h2>
+        <div class="program-h2">
+          <h2>Main Program</h2>
+          <div class="line"> </div>
+        </div>
         <div class="container">
 
           <div class="card1 cards">
@@ -95,77 +128,19 @@
           </div>
 
         </div>
-        <h2>View the Entire Program</h2>
+        <h2 class="program-text desktop-only">View the Entire Program</h2>
+        <button type = "submit" class="program-text mobile-only">Join NFT Summit 2022</button>
+        
       </section>
 
       <!-- The Speakers Section -->
-      <section  id="Speaker">
-
-        <h2 class="header-text2">Featured Speakers</h2>
-
-        <div class="speakers">
-          <div class="speaker1 flex-item">
-            <img src="https://images.weserv.nl/?url=emamo.com/storage/avatars/45/23/180010_5e909ddd39d50a98c2216165a7ff4523.jpg&w=400&h=400" alt="Abel Albano" class="img">
-            <div>
-              <h2>Aaron Albano</h2>
-              <small><em>MINGs Music Enterprises LLC</em></small>
-              <p class="paragraph2">Lorem ipsum     dolor sit amet consecta adipisicing elit. Ipsum nihil reiciendis error perspiciatis molestias
-              </p>
-            </div>
-          </div>
-          
-          <div class="speaker2 flex-item">
-            <img src="https://images.weserv.nl/?url=emamo.com/storage/avatars/5d/71/179495_90565705f8014d566989bf0b05d95d71.jpg&w=400&h=400" alt="Abel Czupor" class="img">
-            <div>
-              <h2>Abel Czupor</h2>
-              <small><em>RadioShzck</em></small>
-              <p>Lorem ipsum dolor sit amet consecta adipisicing elit. Ipsum nihil reiciendis error perspiciatis molestias</p>
-            </div>
-          </div>
-          
-          <div class="speaker3 flex-item">
-            <img src="https://images.weserv.nl/?url=emamo.com/storage/avatars/6e/e1/179467_6a90eeb8035ffe76e468d859c8506ee1.jpg&w=400&h=400" alt="Aaron lane" class="img">
-            <div>
-              <h2>Aaron Lane</h2>
-              <small><em>RMIT Blockchain Innovation Hub</em></small>
-              <p>Lorem ipsum dolor sit amet consecta adipisicing elit. Ipsum nihil reiciendis error perspiciatis molestias
-                aspernatur </p>
-            </div>
-          </div>
-          
-          <div class="speaker4 flex-item">
-            <img src="https://images.weserv.nl/?url=emamo.com/storage/avatars/52/e5/180296_7f553e459f800d4de35b1d841d8e52e5.jpg&w=400&h=400" alt="Promise Okechukwu" class="img">
-            <div>
-              <h2>Adam Amin</h2>
-              <small><em>CEO & Founder, Affectiva</em></small>
-              <p>Lorem ipsum dolor sit amet consecta adipisicing elit. Ipsum nihil reiciendis error perspiciatis molestias</p>
-            </div>
-          </div>
-          
-          <div class="speaker5 flex-item">
-            <img src="https://images.weserv.nl/?url=emamo.com/storage/avatars/16/09/179285_7d272ed485eb9f82b314eaf835201609.jpg&w=400&h=400" alt="John Wolff" class="img">
-           <div>
-            <h2>John Wolff</h2>
-            <small><em>Run it Wild
-            Founder Inc</em></small>
-            <p>Lorem ipsum dolor sit amet consecta adipisicing elit. Ipsum nihil reiciendis error perspiciatis molestias</p>
-           </div>
-          </div>
-          
-          <div class="speaker6 flex-item">
-            <img src="https://images.weserv.nl/?url=emamo.com/storage/avatars/aa/ba/179746_458d354d5149641fa54a0a3f0235aaba.jpg&w=400&h=400" alt="Jonas Hudson" class="img">
-            <div>
-              <h2>Jonas Hudson</h2>
-              <small><em>President, Promzzy koncepts Inc</em></small>
-              <p>Lorem ipsum dolor sit amet consecta adipisicing elit. Ipsum nihil reiciendis error perspiciatis molestias!</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div id="speaker-section"></div>
+     
 
       <!-- The list of Partners Section -->
       <section id="Sponsor">
         <h3>Our Sponsors and Partners</h3>
+        <div class="line"> </div>
         <div class="icons">
           <ul>
             <li class="lists">
@@ -185,17 +160,18 @@
       <!-- The Footer for the Home Page -->
       <footer class="footer">
         <div class="logo-icon">
-          <div><a href="#index.html" class="nft-logo"><img src="./images/nft-logo.png" class="nft-logo" alt="nft logo"></a>
+          <div><a href="index.html" class="nft-logo"><img src="./images/nft-logo.png" class="nft-logo" alt="nft logo"></a>
           </div>
           <h5 class="logo-text">NFT GLOBAL <br> SUMMIT 2022</h5>
         </div>
         
         <div class="footer-text">
-          <h5>2022 - NFT GLOBAL CONFERENCE, All Rights Reserved</h5>
-          <p>Lorem ipsum dolor sit amet consecta adipisicing elit. Fugiat quibusdam dignissimos culpa, <br> facere vero officia quaerat est eos quos perferendis.</p>
+          <h6>2022 - NFT GLOBAL SUMMIT, <br> All Rights Reserved</h6>
+          <small class="footer-paragraph">Website designed and built by Promise Okechukwu. Contact:+234 701 289 7856 <br> UI by Cindy Shin</small>
         </div>
       </footer>
-
+      
     </div>
+    <script src="web.js"></script>
   </body>
 </html>
