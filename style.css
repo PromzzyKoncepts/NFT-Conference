@@ -128,17 +128,20 @@ body {
 }
 
 .cards {
-  background-color: #b3b3b3;
+  background-color: #b3b3b351;
   padding: 15px;
   text-align: center;
   opacity: 0.9;
+  color: #f4f4f4;
+}
+.cards h3 {
+  color: #ec5242;
 }
 
 .cards:hover {
   border-radius: 10px;
-  background-color: #f55114;
   color: #f4f4f4;
-  border: 1px solid;
+  border: 1px solid white;
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -147,6 +150,10 @@ body {
   display: block;
   font-size: 1rem;
   cursor: pointer;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  text-decoration: underline;
 }
 
 .img {
@@ -256,7 +263,7 @@ body {
   .program {
     padding-bottom: 50px;
   }
-
+  
   .flex-item p {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -311,6 +318,7 @@ body {
     display: block;
     margin: auto;
     margin-top: 50px;
+    text-decoration: none;
   }
 
   /* the modal part */
