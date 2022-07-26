@@ -144,6 +144,7 @@ body {
 }
 
 .program-text {
+  display: block;
   font-size: 1rem;
   cursor: pointer;
 }
@@ -211,6 +212,10 @@ body {
 
 .mobile-only {
   display: none;
+}
+
+.desktop-only {
+  display: block;
 }
 
 .nav-menu {
