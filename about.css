@@ -1,0 +1,320 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.right-nav {
+  float: right;
+  margin-top: -10px;
+  margin-right: 20px;
+}
+
+.top-nav {
+  background-color: #343434;
+  padding: 24px;
+}
+
+.right-nav a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+/* lower nav and heading */
+.nft-logo {
+  width: 100px;
+}
+
+.logo-text {
+  margin-top: 23px;
+}
+
+.logo-icon {
+  display: flex;
+}
+
+.lists a {
+  text-decoration: none;
+  color: #282828;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.about-link a {
+  text-decoration: none;
+  color: #f55114;
+}
+
+.home a {
+  display: flex;
+  justify-content: right;
+  text-decoration: none;
+  color: #f55114;
+  padding: 40px;
+  gap: 3px;
+}
+
+.home i {
+  padding: 3px;
+}
+
+.home > a:hover {
+  color: #595959;
+}
+
+.lists > li > a:hover {
+  color: brown;
+}
+
+.lists {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 0 10px #000;
+}
+
+.about-section {
+  background-image: url(./images/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-heading {
+  text-align: center;
+}
+
+.about-heading h1 {
+  color: #f55114;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-heading p {
+  background-color: #fff;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.about-link {
+  padding: 3rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.section2 {
+  background: #fff;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.about-text {
+  text-align: center;
+}
+
+#nft-logo {
+  justify-content: center;
+}
+
+.about-text2 {
+  text-align: center;
+  padding: 5rem;
+  background-color: #f4f4f4;
+}
+
+.card-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card1 {
+  background-color: #f55114;
+  background-blend-mode: soft-light;
+  background-image: url(./images/conf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: 10rem;
+  color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card2 {
+  background-color: #f55114;
+  background-blend-mode: soft-light;
+  background-image: url(./images/conf2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: 10rem;
+  color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: #f4f4f4;
+  padding: 10px;
+  background-color: #282828;
+}
+
+.footer-text {
+  margin-top: 15px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.nav-menu {
+  display: none;
+}
+
+/* the media query for the about page */
+@media screen and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  .home {
+    display: none;
+  }
+
+  /* the modal part */
+  .mobile-menu {
+    display: block;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: xx-large;
+  }
+
+  .nav-menu {
+    display: block;
+    background-color: #3c3a39;
+    height: 800px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: -200%;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    transition: 0.5s ease-out;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 30%;
+  }
+
+  .nav-links,
+  ul li a {
+    list-style: none;
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 27px;
+  }
+
+  .mail {
+    display: none;
+  }
+
+  .slide-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+
+  .hr-nav {
+    width: 10rem;
+  }
+
+  .about-heading {
+    padding-top: 50px;
+  }
+
+  .about-heading p {
+    width: 85%;
+  }
+
+  .about-text {
+    width: 85%;
+    margin: auto;
+  }
+
+  .about-text2 {
+    text-align: center;
+    padding: 3rem;
+    background-color: #f4f4f4;
+  }
+
+  .card-container {
+    display: block;
+  }
+
+  .card1 {
+    margin-bottom: 15px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .footer h6 {
+    font-size: 0.87rem;
+  }
+
+  .logo-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo-text {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  .nft-logo {
+    width: 70px;
+  }
+
+  .footer-paragraph {
+    display: none;
+  }
+
+  .lists {
+    list-style: none;
+  }
+
+  .partner-logo {
+    width: 8rem;
+  }
+}
